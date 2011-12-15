@@ -26,6 +26,7 @@ grails.project.dependency.resolution = {
     dependencies {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
         // runtime 'mysql:mysql-connector-java:5.1.13'
+		compile 'com.sun.xml.bind:jaxb-xjc:2.1.12', 'com.sun.xml.bind:jaxb-impl:2.1.12'
 		compile("org.codehaus.groovy.modules:groovyws:0.5.2") {
 			excludes 'geronimo-servlet_2.5_spec', 'servlet-api', 'jaxb-xjc', 'jaxb-impl', 'xml-apis', 'saaj-impl', 'junit', 'slf4j-jdk14', 'xmlParserAPIs', 'jaxb-api', 'saaj-api', 'xmlbeans', 'jaxen', 'geronimo-stax-api_1.0_spec', 'geronimo-activation_1.0.2_spec', 'abdera-client', 'geronimo-activation_1.1_spec'
 		}
